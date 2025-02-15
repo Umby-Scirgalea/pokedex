@@ -1,0 +1,81 @@
+.navBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.navBar h1{
+    font-size: 1.2em;
+    width: 30%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.rightNavbar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar input{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+.searchBar button{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #222222;
+    color: #f7f7f7;
+}
+
+
+.searchButtonDisabled{
+    opacity: 70%;
+    color: #3f3f3f;
+    cursor:progress;
+}
+
+.searchBar button, .searchBar input{
+    border: 1.6px solid #222222;
+}
+
+.themeButton{
+    border-radius: 25px;
+    font-size: 0.8em;
+}
+
+@media (max-width:620px){
+    .navBar{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .navBar h1{
+        width: 100%;
+        font-size: 1.5em;
+        padding: 10px 0;
+    }
+
+    .rightNavbar{
+        width: 100%;
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
+
+  
+}

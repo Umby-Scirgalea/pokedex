@@ -1,0 +1,57 @@
+.pokeCardSmall{
+    min-height: 250px !important;
+    flex: 0 1 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px 0;
+    border-radius: 10px;
+    transition: shadow 0.25s;
+    box-shadow: 1px 2px 4px #333333;
+}
+
+.pokeCardSmall .id{
+    height: 18%;
+    background: none !important;
+    font-weight: 600;
+}
+
+.pokeCardSmall img{
+    width: 60%;
+    height: 80%;
+}
+
+.pokeCardSmall .name{
+    height: 18%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/* width */
+
+@media (max-width: 620px){
+    .pokeCardSmall{
+        flex: 0 1 200px;
+        min-height: 200px !important;
+    }
+}
+
+@media (max-width: 536px){
+    .pokeCardSmall{
+        flex: 0 1 260px;
+        min-height: 260px !important;
+    }
+}
+
+/* Height */
+
+@media (max-height: 460px){
+    .pokeCardSmall{
+        flex: 0 1 200px;
+        min-height: 200px !important;
+    }
+}
+

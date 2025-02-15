@@ -1,0 +1,41 @@
+.filters{
+    display: flex;
+    position: fixed;
+    top : 69px;
+    z-index: 0;
+    width: 100%;
+    justify-content: end;
+    border-bottom: 1px solid #333333;
+    box-shadow: 1px 9px 8px #33333322;
+    padding: 0 10px;
+}
+
+.filters select{
+    padding: 0 2px 0 10px;
+    text-align: center;
+    appearance: none;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Only Legendary */
+
+.onlyLegendary{
+    width: 80px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.onlyLegendaryOn{
+    color: #f7f7f7 !important;
+    background-color: green !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+@media (max-width:620px){
+    .filters{
+        top: 99px;
+    }
+}
