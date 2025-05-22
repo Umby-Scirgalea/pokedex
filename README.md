@@ -14,17 +14,23 @@ Currently, the app displays basic Pokémon info including name, generation, type
 ![Home](./pokedex%20tutorial/home.png)
 ![HomeDark](./pokedex%20tutorial/dark%20mode%201.png)
 
-You can:
-- Search For Pokemons
-- Show only the legendary ones
+From the main page you can:
+- Search for Pokémon by name
+- Filter to show only Legendary Pokémon
 - Sort by **ID** or **NAME**
-- Change Page theme **Light** or **Dark**
+- Toggle between **Light** or **Dark** mode
 
 ## Pokemon Card
 ![PokemonCard](./pokedex%20tutorial/pokemon%20card%20front.png)
 ![PokemonInfo](./pokedex%20tutorial/info.png)
 
-You can see Name, title, sprites, types, weight, height and description of the pokemon
+Each card displays:
+- Pokémon name and title
+- Sprites (front and rear)
+- Types
+- Weight and height
+- Shiny sprite and Pokémon cry
+- A brief description
 
 ### If you touch the Pokemon sprite you can see the rear one
 
