@@ -32,10 +32,10 @@ Each card displays:
 - Shiny sprite and Pokémon cry
 - A brief description
 
-### If you touch the Pokemon sprite you can see the rear one
+### Tap the Pokémon sprite to view its rear sprite
 
 ![PokemonCardRear](./pokedex%20tutorial/pokemon%20card%20rear.png)
 
-### By touching the **Shiny** button you can see the shiny one
+### Tap the Shiny button to toggle the shiny version of the Pokémon
 
 ![PokemonCardShiny](./pokedex%20tutorial/pokemon%20card%20shiny%20front.png)
